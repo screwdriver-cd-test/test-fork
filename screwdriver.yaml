@@ -3,6 +3,8 @@ shared:
 
 jobs:
     main:
+        annotations: 
+            screwdriver.cd/restrict-pr: fork
         requires:
             - ~pr
             - ~commit
