@@ -1,7 +1,7 @@
 shared:
     image: node:8
 annotations: 
-    beta.screwdriver.cd/restrict-pr: fork
+    screwdriver.cd/restrict-pr: fork
 jobs:
     main:
         requires:
