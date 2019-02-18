@@ -1,10 +1,9 @@
 shared:
     image: node:8
-
+annotations: 
+    beta.screwdriver.cd/restrict-pr: fork
 jobs:
     main:
-        annotations: 
-            beta.screwdriver.cd/restrict-pr: fork
         requires:
             - ~pr
             - ~commit
