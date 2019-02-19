@@ -1,7 +1,5 @@
 shared:
     image: node:8
-annotations: 
-    screwdriver.cd/restrict-pr: fork
 jobs:
     main:
         requires:
