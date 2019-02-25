@@ -2,3 +2,5 @@
 
 test
 fdsaf
+
+test skip ci
